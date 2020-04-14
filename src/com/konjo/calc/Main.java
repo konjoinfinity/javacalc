@@ -7,10 +7,6 @@ public class Main {
         double[] rightVals = { 50.0d, 92.0d, 17.0d, 3.0d };
         char[] opCodes = { 'd', 'a', 's', 'm' };
         double[] results = new double[opCodes.length];
-//        double val1 = 100.0d;
-//        double val2 = 0.0d;
-//        double result;
-//        char opCode = 'd';
 
         for(int i = 0; i < opCodes.length; i++) {
             switch (opCodes[i]) {
